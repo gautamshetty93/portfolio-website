@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
 
 const App = () => {
     const [darkMode, setDarkMode] = useState(true)
@@ -38,6 +39,7 @@ const App = () => {
             <Hero darkMode={darkMode} />
             <About darkMode={darkMode} />
             <Skills darkMode={darkMode} />
+            <Projects darkMode={darkMode} />
         </div>
 )
 }
