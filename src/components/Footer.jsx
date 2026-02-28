@@ -1,4 +1,4 @@
-import {FaGithub} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaTwitter, FaHeart} from 'react-icons/fa';
 
 const Footer = ({darkMode}) => {
     const currentYear = new Date().getFullYear();
@@ -35,6 +35,32 @@ const Footer = ({darkMode}) => {
                             bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
                             <FaGithub />
                         </a>
+                        <a
+                            href="#"
+                            className="w-10 h-10 rounded-full flex items-center
+                            justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500
+                            hover:to-amber-500 hover:text-white
+                            bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
+                            <FaLinkedin />
+                        </a>
+                        <a
+                            href="#"
+                            className="w-10 h-10 rounded-full flex items-center
+                            justify-center hover:scale-110 transition-all hover:bg-linear-to-r hover:from-orange-500
+                            hover:to-amber-500 hover:text-white
+                            bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]">
+                            <FaTwitter />
+                        </a>
+                    </div>
+                    <div className="text-center md:text-right">
+                        <p className="text-sm flex items-center justify-end gap-1 text-[#6b7280] dark:text-[#9ca3af]">
+                            @{currentYear} Made by
+                            <span
+                                className="mt-1 text-[#f97316]">
+                                Gautam
+                            </span>
+                            <FaHeart className="text-red-500"/>
+                        </p>
                     </div>
                 </div>
                     </div>
